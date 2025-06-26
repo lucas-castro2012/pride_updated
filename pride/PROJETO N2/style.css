@@ -85,10 +85,22 @@ h2, h3 {
 
 /* Rodapé */
 footer {
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  background: #1a1a80;
+  background-color: #1b1979;
   color: white;
-  margin-top: 3rem;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.footer-logo {
+  max-width: 270px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 1000px;
 }
