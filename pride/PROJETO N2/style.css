@@ -99,8 +99,8 @@ footer {
 }
 
 .footer-logo {
-  max-width: 270px;
+  max-width: 240px;
   height: auto;
   object-fit: contain;
-  border-radius: 1000px;
+  border-radius: 900px;
 }
