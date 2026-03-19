@@ -30,16 +30,16 @@ nav a {
   font-weight: bold;
   padding: 0.45rem 0.8rem;
   border-radius: 8px;
-  transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+  transition: background-color 0.25s ease, transform 0.25s ease, color 0.25s ease;
 }
 
 nav a:hover {
   background-color: #4444aa;
-  transform: translateY(-2px);
+  transform: translateY(-1.5px);
 }
 
 nav a.ativo {
-  border-bottom: 3px solid #ffcc00;
+  border-bottom: 3.5px solid #ffcc00;
 }
 
 .container {
@@ -49,12 +49,12 @@ nav a.ativo {
   max-width: 1000px;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.10);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .container:hover {
-  transform: translateY(-5px) scale(1.01);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10);
+  transform: translateY(-3px) scale(1.006);
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.10);
 }
 
 h2,
@@ -83,7 +83,7 @@ h3 {
 .imagem-box img {
   max-width: 300px;
   width: 100%;
-  border-radius: 8px;
+  border-radius: px;
   border: 3px solid #ffd700;
   background-color: white;
   padding: 5px;
@@ -107,10 +107,19 @@ h3 {
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-left-color 0.3s ease;
 }
 
+
 .container.curiosidades:hover {
-  transform: translateY(-6px) scale(1.01);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+  transform: translateY(-3px) scale(1.007);
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.10);
   border-left-color: #ffcc00;
+}
+
+.highlight {
+  background-color: #f0f4ff;
+  border-left: 4px solid #1a1a80;
+  padding: 14px 16px;
+  border-radius: 8px;
+  margin-top: 20px;
 }
 
 ul li {
